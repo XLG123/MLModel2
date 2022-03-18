@@ -38,11 +38,13 @@ df['genre_ids'] = df['genre_ids'].apply(getGenreIDSum)
 
 # Rename the columns.
 df.columns = ['Language', 'Genre', 'Year', 'Vote_Average']
-df.to_csv('KMeanDataset.csv', index=False) # Save dataframe as a csv file.
+dataset = df
+dataset.to_csv('KMeanDataset.csv', index=False) # Save dataframe as a csv file.
 
 # Normalize the four columns with Min-Max Scaling method.
 df['Language'] = (df['Language'] - df['Language'].min())/(df['Language'].max() - df['Language'].min())
 df['Genre'] = (df['Genre'] - df['Genre'].min())/(df['Genre'].max() - df['Genre'].min())
 df['Year'] = (df['Year'] - df['Year'].min())/(df['Year'].max() - df['Year'].min())
 df['Vote_Average'] = (df['Vote_Average'] - df['Vote_Average'].min())/(df['Vote_Average'].max() - df['Vote_Average'].min())
-df.to_csv('KMeanDatasetMMS.csv', index=False) # Save dataframe as a csv file.
+datasetMMS = df
+datasetMMS.to_csv('KMeanDatasetMMS.csv', index=False) # Save dataframe as a csv file.
