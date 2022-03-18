@@ -36,8 +36,7 @@ def getGenreIDSum(genre_ids):
 	sum = 0
 	for genre in genres:
 		if len(genre) > 0:
-			genre = int(genre)
-			sum = sum + genre
+			sum = sum + int(genre)
 	return sum
 
 df['modified_genre'] = df['genre_ids'].apply(getGenreIDSum)
