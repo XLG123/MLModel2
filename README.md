@@ -3,7 +3,7 @@
 ## Progress as on March 18th, 2022:
 - [x] Cleaned Dataset and genrated two new datasets for use in ML model.   
 - [x] Visualized the clusters on a scatter plot using k-mean clustering with a randomly generated sample dataset from our two newly created datasets.   
-- [] Created a training model for both datasets.    
+- [ ] Created a training model for both datasets.    
 
 -----
 ### Cleaned raw data to make sure only the four features will remain.
