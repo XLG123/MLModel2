@@ -1,15 +1,9 @@
 # MLModel2
 
 ## Progress as on March 18th, 2022:
--[x] Cleaned Dataset and genrated two new datasets for use in ML model.   
--[x] Visualized the clusters on a scatter plot using k-mean clustering with a randomly generated sample dataset from our two newly created datasets.   
--[] Created a training model for both datasets.
-
-### Raw Dataset Preview: 
-adult | backdrop_path | genre_ids | id | original_language | original_title | overview | popularity | poster_path | release_date | title | video | vote_average | vote_count   
-0     |  NaN          |  [99,16]  |889714|    en           |  Happy Holiday |    NaN   |     0      |    NaN      |  1992-09-03  |Happy Holiday|  NaN  |   0   |   0   
-0     |  NaN          |   [99]    |989991|    fr           |  Le Trapeze por la|  NaN  |     0      |    NaN      |  1998-02-18  | The One     |  NaN  |   0   |   0   
-0     |  NaN          |    []     |187825|    en           |  Famous One    |    NaN   |     1.2    |    NaN      |  2001-09-19  | Famous One  |  NaN  |   0   |   0   
+- [x] Cleaned Dataset and genrated two new datasets for use in ML model.   
+- [x] Visualized the clusters on a scatter plot using k-mean clustering with a randomly generated sample dataset from our two newly created datasets.   
+- [] Created a training model for both datasets.    
 
 -----
 ### Cleaned raw data to make sure only the four features will remain.
