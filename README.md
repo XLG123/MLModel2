@@ -58,9 +58,9 @@ df['release_date'] = df['release_date'].apply(removeMonthDate)
 ### Dataset2(With Min-Max Scaling) Preview:
 Language | Genre | Year | Vote_Average
 ---------|-------|------|--------------
-1.0      | 0.008 |0.054 |    3.1       
-0.134    | 0.135 |0.7   |    0.0       
-0.091    | 0.141 |0.47  |    1.7       
+1.0      | 0.008 |0.054 |    0.12       
+0.134    | 0.135 |0.7   |    0.06       
+0.091    | 0.141 |0.47  |    0.71       
 
 The four feature columns are normalized using Min-Max Scaling method to make sure all the data points fall between 0 to 1.   
 Min-Max Scaling formula: (df[i] - df.min) / (df.max - df.min)
